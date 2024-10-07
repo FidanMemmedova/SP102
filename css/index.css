@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 20px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70vh;
+}
+
+.card button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card i {
+    font-size: 40px;
+}
+.pinkCard{
+    background-color: pink;
+}
